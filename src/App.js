@@ -6,7 +6,10 @@ import './App.css'
 function App() {
   return (
     <div>
-      <Header/>
+      <Header />
+      <div className="container">
+        <Balance />
+      </div>
     </div>
   )
 }
